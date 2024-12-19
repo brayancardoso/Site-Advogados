@@ -179,12 +179,15 @@ footer p {
 
 #contato ul li a {
     font-size: 1.5rem;
-    color: #ded3d3;
+    padding: 10px;
+    color: #000000;
     transition: color 0.3s ease;
 }
 
 #contato ul li a:hover {
-    color: #02122f;
+    text-decoration: none;
+    backgroound-color: #02122f;
+    border-radius:40px;
 }
 
 /* Responsividade */
